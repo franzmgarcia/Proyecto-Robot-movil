@@ -1,0 +1,204 @@
+
+
+
+# .abs__InterruptVectorTable
+  00000000 0000019C .abs    InterruptVectorTable	(Vectors_c.obj)
+
+# .abs_NVPROT_INIT
+  0000040D 00000001 .abs    NVPROT_INIT	(Cpu_c.obj)
+
+# .abs_NVOPT_INIT
+  0000040F 00000001 .abs    NVOPT_INIT	(Cpu_c.obj)
+#>00000400          ___heap_size (linker command file)
+#>00000400          ___stack_size (linker command file)
+#>00800000          ___RAM_ADDRESS (linker command file)
+#>00002000          ___RAM_SIZE (linker command file)
+#>00000000          ___FLASH_ADDRESS (linker command file)
+#>00020000          ___FLASH_SIZE (linker command file)
+
+# .userram
+
+# .code
+
+# .text
+  00000410 0000002E .text   SetRatio	(PWM2_c.obj)
+  0000043E 0000000A .text   PWM2_Enable	(PWM2_c.obj)
+  00000448 0000000A .text   PWM2_Disable	(PWM2_c.obj)
+  00000452 0000004E .text   PWM2_SetDutyUS	(PWM2_c.obj)
+  000004A0 00000014 .text   PWM2_Init	(PWM2_c.obj)
+  000004B4 0000002E .text   SetRatio	(PWM1_c.obj)
+  000004E2 0000000A .text   PWM1_Enable	(PWM1_c.obj)
+  000004EC 0000000A .text   PWM1_Disable	(PWM1_c.obj)
+  000004F6 0000004E .text   PWM1_SetDutyUS	(PWM1_c.obj)
+  00000544 00000022 .text   PWM1_Init	(PWM1_c.obj)
+  00000566 000000F4 .text   PE_Timer_LngMul	(PE_Timer_c.obj)
+  0000065A 00000086 .text   PE_Timer_LngHi3	(PE_Timer_c.obj)
+  000006E0 00000002 .text   Cpu_Interrupt	(Cpu_c.obj)
+  000006E2 0000007C .text   __initialize_hardware	(Cpu_c.obj)
+  0000075E 000000EA .text   PE_low_level_init	(Cpu_c.obj)
+  00000848 000000D6 .text   AS1_RecvChar	(AS1_c.obj)
+  0000091E 000000F2 .text   AS1_InterruptRx	(AS1_c.obj)
+  00000A10 000000C0 .text   AS1_InterruptTx	(AS1_c.obj)
+  00000AD0 00000030 .text   AS1_InterruptError	(AS1_c.obj)
+  00000B00 0000006E .text   AS1_Init	(AS1_c.obj)
+  00000B6E 00000002 .text   __initialize_system	(startcf_c.obj)
+  00000B70 00000062 .text   __copy_rom_section	(startcf_c.obj)
+  00000BD2 00000046 .text   __copy_rom_sections_to_ram	(startcf_c.obj)
+  00000C18 00000004 .text   _ExitProcess	(startcf_c.obj)
+  00000C1C 00000210 .text   clear_mem	(startcf_c.obj)
+  00000E2C 00000090 .text   _startup	(startcf_c.obj)
+  00000EBC 0000011A .text   main	(main_c.obj)
+  00000FD6 00000122 .text   asciiConvertion	(Events_c.obj)
+  000010F8 00000038 .text   empty	(Events_c.obj)
+  00001130 00000002 .text   AS1_OnError	(Events_c.obj)
+  00001132 0000003E .text   AS1_OnRxChar	(Events_c.obj)
+  00001170 00000002 .text   AS1_OnRxCharExt	(Events_c.obj)
+  00001172 00000002 .text   AS1_OnTxChar	(Events_c.obj)
+  00001174 00000002 .text   AS1_OnFullRxBuf	(Events_c.obj)
+  00001176 00000002 .text   AS1_OnFreeTxBuf	(Events_c.obj)
+  00001178 00000066 .text   scalbn	(libm.a math_sun.o     )
+  000011DE 00001A42 .text   __ieee754_pow	(libm.a e_pow.o        )
+  00002C20 000002DA .text   __ieee754_sqrt	(libm.a e_sqrt.o       )
+  00002EFA 00000026 .text   copysign	(libm.a s_copysign.o   )
+  00002F20 000000AE .text   frexp	(libm.a s_frexp.o      )
+  00002FCE 000002EA .text   ldexp	(libm.a s_ldexp.o      )
+  000032B8 00000046 .text   pow	(libm.a w_pow.o        )
+  000032FE 00000050 .text   __fpclassifyd	(libm.a math_api.o     )
+  0000334E 0000001A .text   fabs	(libm.a s_fabs.o       )
+  00003368 0000003A .text   sqrt	(libm.a w_sqrt.o       )
+  000033A2 0000001C .text   __call_static_initializers	(librt.a cf_staticinitia)
+  000033BE 0000002C .text   __destroy_global_chain	(librt.a cf_staticinitia)
+  000033EA 0000000C .text   _ewl_exit	(librt.a abort_exit.o   )
+  000033F8 00000032 .text   @DummyFn1	(fp_coldfire_nodiv.a basic.o        )
+  000033F8 00000000 .text   _f_neg	(fp_coldfire_nodiv.a basic.o        )
+  000033F8 00000032 .text   .text	(fp_coldfire_nodiv.a basic.o        )
+  00003404 00000000 .text   _d_neg	(fp_coldfire_nodiv.a basic.o        )
+  0000341A 00000000 .text   _d_qtod	(fp_coldfire_nodiv.a basic.o        )
+  0000341A 00000000 .text   _d_dtoq	(fp_coldfire_nodiv.a basic.o        )
+  0000342C 00000614 .text   .text	(fp_coldfire_nodiv.a dadd.o         )
+  0000342C 00000000 .text   _d_add	(fp_coldfire_nodiv.a dadd.o         )
+  0000342C 00000614 .text   @DummyFn2	(fp_coldfire_nodiv.a dadd.o         )
+  0000365C 00000000 .text   _d_sub	(fp_coldfire_nodiv.a dadd.o         )
+  00003A40 0000015E .text   @DummyFn3	(fp_coldfire_nodiv.a dcompare.o     )
+  00003A40 0000015E .text   .text	(fp_coldfire_nodiv.a dcompare.o     )
+  00003A40 00000000 .text   _d_cmp	(fp_coldfire_nodiv.a dcompare.o     )
+  00003A4A 00000000 .text   _d_cmpe	(fp_coldfire_nodiv.a dcompare.o     )
+  00003A54 00000000 .text   _d_feq	(fp_coldfire_nodiv.a dcompare.o     )
+  00003A5A 00000000 .text   _d_fne	(fp_coldfire_nodiv.a dcompare.o     )
+  00003A60 00000000 .text   _d_flt	(fp_coldfire_nodiv.a dcompare.o     )
+  00003A66 00000000 .text   _d_fle	(fp_coldfire_nodiv.a dcompare.o     )
+  00003A6C 00000000 .text   _d_fgt	(fp_coldfire_nodiv.a dcompare.o     )
+  00003A72 00000000 .text   _d_fge	(fp_coldfire_nodiv.a dcompare.o     )
+  00003A7C 00000000 .text   _d_fun	(fp_coldfire_nodiv.a dcompare.o     )
+  00003A82 00000000 .text   _d_for	(fp_coldfire_nodiv.a dcompare.o     )
+  00003BA0 00000448 .text   @DummyFn4	(fp_coldfire_nodiv.a ddiv.o         )
+  00003BA0 00000000 .text   _d_div	(fp_coldfire_nodiv.a ddiv.o         )
+  00003BA0 00000448 .text   .text	(fp_coldfire_nodiv.a ddiv.o         )
+  00003FE8 00000598 .text   @DummyFn5	(fp_coldfire_nodiv.a dmul.o         )
+  00003FE8 00000000 .text   _d_mul	(fp_coldfire_nodiv.a dmul.o         )
+  00003FE8 00000598 .text   .text	(fp_coldfire_nodiv.a dmul.o         )
+  00004580 00000056 .text   @DummyFn6	(fp_coldfire_nodiv.a dterminals.o   )
+  00004580 00000000 .text   _fp_d_rounding	(fp_coldfire_nodiv.a dterminals.o   )
+  00004580 00000056 .text   .text	(fp_coldfire_nodiv.a dterminals.o   )
+  000045A8 00000000 .text   _fp_d_underflow	(fp_coldfire_nodiv.a dterminals.o   )
+  000045BC 00000000 .text   _fp_d_overflow	(fp_coldfire_nodiv.a dterminals.o   )
+  000045D8 0000008E .text   @DummyFn8	(fp_coldfire_nodiv.a dtoi.o         )
+  000045D8 00000000 .text   _d_dtoi	(fp_coldfire_nodiv.a dtoi.o         )
+  000045D8 0000008E .text   .text	(fp_coldfire_nodiv.a dtoi.o         )
+  00004668 00000136 .text   @DummyFn22	(fp_coldfire_nodiv.a int_to_d.o     )
+  00004668 00000136 .text   .text	(fp_coldfire_nodiv.a int_to_d.o     )
+  00004668 00000000 .text   _d_utod	(fp_coldfire_nodiv.a int_to_d.o     )
+  000046AE 00000000 .text   _d_itod	(fp_coldfire_nodiv.a int_to_d.o     )
+  000046CA 00000000 .text   _d_ulltod	(fp_coldfire_nodiv.a int_to_d.o     )
+  0000475C 00000000 .text   _d_lltod	(fp_coldfire_nodiv.a int_to_d.o     )
+  000047A0 00000058 .text   @DummyFn24	(fp_coldfire_nodiv.a soft_division.o)
+  000047A0 00000000 .text   _fp_PA_divu16	(fp_coldfire_nodiv.a soft_division.o)
+  000047A0 00000058 .text   .text	(fp_coldfire_nodiv.a soft_division.o)
+  000047F8 00000010 .rodata bp	(libm.a e_pow.o        )
+  00004808 00000010 .rodata dp_h	(libm.a e_pow.o        )
+  00004818 00000010 .rodata dp_l	(libm.a e_pow.o        )
+#>00004828          ___ROM_AT (linker command file)
+#>00004828          ___DATA_ROM (linker command file)
+
+# .data
+#>00800000          ___DATA_RAM (linker command file)
+#>00800000          __exception_table_start__ (linker command file)
+# Exception index
+  00800000 00000000         Exception Table Index	()
+#>00800000          __exception_table_end__ (linker command file)
+#>00800000          ___sinit__ (linker command file)
+# Linker generated symbols
+  00800000 00000004         static initializer	(linker generated)
+#>00800004          __START_DATA (linker command file)
+#>00800004          __END_DATA (linker command file)
+#>00800004          __START_SDATA (linker command file)
+  00800004 00000008 .sdata  __double_nan	(libm.a float.o        )
+#>0080000C          __END_SDATA (linker command file)
+#>0080000C          ___DATA_END (linker command file)
+#>0080000C          __SDA_BASE (linker command file)
+
+# .bss
+#>0080000C          ___BSS_START (linker command file)
+#>0080000C          __START_SBSS (linker command file)
+  0080000C 00000002 .sbss   ActualRatio	(PWM2_c.obj)
+  0080000E 00000002 .sbss   ActualRatio	(PWM1_c.obj)
+  00800010 00000001 .sbss   SR_lock	(Cpu_c.obj)
+  00800011 00000001 .sbss   OnFreeTxBuf_semaphore	(AS1_c.obj)
+  00800012 000003E8 .sbss   OutBuffer	(AS1_c.obj)
+  008003FA 00000002 .sbss   OutIndxW	(AS1_c.obj)
+  008003FC 00000002 .sbss   OutIndxR	(AS1_c.obj)
+  008003FE 00000002 .sbss   AS1_OutLen	(AS1_c.obj)
+  00800400 000003E8 .sbss   InpBuffer	(AS1_c.obj)
+  008007E8 00000002 .sbss   InpIndxW	(AS1_c.obj)
+  008007EA 00000002 .sbss   InpIndxR	(AS1_c.obj)
+  008007EC 00000002 .sbss   AS1_InpLen	(AS1_c.obj)
+  008007EE 00000001 .sbss   SerFlag	(AS1_c.obj)
+  008007F0 00000004 .sbss   i	(main_c.obj)
+  008007F4 00000004 .sbss   l	(main_c.obj)
+  008007F8 00000004 .sbss   r	(main_c.obj)
+  008007FC 00000004 .sbss   rightPWM	(main_c.obj)
+  00800800 00000004 .sbss   leftPWM	(main_c.obj)
+  00800804 00000003 .sbss   rightMotor	(main_c.obj)
+  00800807 00000003 .sbss   leftMotor	(main_c.obj)
+  0080080C 00000004 .sbss   j	(Events_c.obj)
+  00800810 000003E8 .sbss   array	(Events_c.obj)
+  00800BF8 00000001 .sbss   character	(Events_c.obj)
+  00800BFC 00000004 .sbss   errno	(libc.a errno.o        )
+#>00800C00          __END_SBSS (linker command file)
+#>00800C00          __START_BSS (linker command file)
+  00800C00 00000002 .bss    SR_reg	(Cpu_c.obj)
+  00800C04 00000004 .bss    __global_destructor_chain	(librt.a cf_staticinitia)
+#>00800C08          __END_BSS (linker command file)
+#>00800C08          ___BSS_END (linker command file)
+
+# .custom
+#>00800C08          ___HEAP_START (linker command file)
+#>00800C08          ___heap_addr (linker command file)
+#>00801008          ___HEAP_END (linker command file)
+#>00801008          ___SP_END (linker command file)
+#>00801408          ___SP_INIT (linker command file)
+#>00801008          ___mem_limit (linker command file)
+#>00000010          ___stack_safety (linker command file)
+#>00801408          __SP_INIT (linker command file)
+#>00801408          ___SP_AFTER_RESET (linker command file)
+#>00004834          _romp_at (linker command file)
+
+# .romp
+#>00004834          __S_romp (linker command file)
+
+
+# Memory map:
+  v_addr   p_addr   size     name
+  00000000 00000000 0000019C .abs__InterruptVectorTable abs__InterruptVectorTable
+  0000040D 0000040D 00000001 .abs_NVPROT_INIT abs_NVPROT_INIT
+  0000040F 0000040F 00000001 .abs_NVOPT_INIT abs_NVOPT_INIT
+  00000410 00000410 00000000 .code      code
+  00000410 00000410 00004418 .text      code
+  00800000 00800000 00000000 .userram   userram
+  00800000 00004828 0000000C .data      userram
+  0080000C 0080000C 00000BFC .bss       userram
+  00800C08 00800C08 00000000 .custom    userram
+  00800C08 00004834 00000018 .romp      userram
+
+# Link start time: Fri Jul 06 10:52:00 2018
+# Link end time: Fri Jul 06 10:52:00 2018

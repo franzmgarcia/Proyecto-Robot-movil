@@ -1,0 +1,49 @@
+<CodeGenerationInfo>
+  <ToolchainSettings>
+    <option>
+      <name>PE_G_4PEx_ToolChain_Compiler_SearchUserPaths</name>
+      <values lines_count="2">
+        <Line>"${ProjDirPath}/Sources"</Line>
+        <Line>"${ProjDirPath}/Generated_Code"</Line>
+      </values>
+    </option>
+  </ToolchainSettings>
+  <GeneratedFilesList>
+    <GeneratedByPE>
+      <File Name="Documentation/Comunicacion_Serial_Camara_Settings.xml" FileDate="2018-05-30, 15:35:36" FileAge="1527710736000" FileType="3072" />
+      <File Name="Generated_Code/AS1.c" FileDate="2018-05-18, 10:28:38" FileAge="1526655518000" FileType="45637" CompNumb="8" />
+      <File Name="Generated_Code/PWM2.c" FileDate="2018-05-30, 15:35:36" FileAge="1527710736000" FileType="45637" CompNumb="18" />
+      <File Name="Generated_Code/Bit2.h" FileDate="2018-05-30, 15:35:36" FileAge="1527710736000" FileType="45637" CompNumb="16" />
+      <File Name="Generated_Code/PE_Timer.h" FileDate="2018-05-30, 15:35:36" FileAge="1527710736000" FileType="45637" />
+      <File Name="Project_Settings/Linker_Files/ProcessorExpert.lcf" FileDate="2018-05-18, 10:26:12" FileAge="1526655372000" FileType="8" CompNumb="4" />
+      <File Name="Generated_Code/TI1.h" FileDate="2018-05-30, 15:35:36" FileAge="1527710736000" FileType="45637" CompNumb="14" />
+      <File Name="Generated_Code/Vectors.c" FileDate="2018-05-30, 15:35:36" FileAge="1527710736000" FileType="45637" CompNumb="4" />
+      <File Name="Documentation/Comunicacion_Serial_Camara.txt" FileDate="2018-05-30, 15:35:36" FileAge="1527710736000" FileType="3072" />
+      <File Name="Generated_Code/Bit2.c" FileDate="2018-05-30, 15:35:36" FileAge="1527710736000" FileType="45637" CompNumb="16" />
+      <File Name="Generated_Code/PE_Timer.c" FileDate="2018-05-30, 15:35:36" FileAge="1527710736000" FileType="45637" />
+      <File Name="Generated_Code/IO_Map.h" FileDate="2018-05-18, 10:26:12" FileAge="1526655372000" FileType="45637" />
+      <File Name="Generated_Code/TI1.c" FileDate="2018-05-30, 15:35:36" FileAge="1527710736000" FileType="45637" CompNumb="14" />
+      <File Name="Generated_Code/PE_Const.h" FileDate="2018-05-18, 10:26:12" FileAge="1526655372000" FileType="45637" />
+      <File Name="Sources/main.c" FileDate="2018-05-31, 15:45:12" FileAge="1527797712000" FileType="128" />
+      <File Name="Documentation/Comunicacion_Serial_Camara_SIGNALS.txt" FileDate="2018-06-01, 10:10:16" FileAge="1527864016866" FileType="3072" />
+      <File Name="Generated_Code/Cpu.h" FileDate="2018-05-30, 15:35:36" FileAge="1527710736000" FileType="45637" CompNumb="4" />
+      <File Name="Generated_Code/PWM1.h" FileDate="2018-05-30, 15:35:36" FileAge="1527710736000" FileType="45637" CompNumb="17" />
+      <File Name="Generated_Code/IO_Map.c" FileDate="2018-05-18, 10:26:12" FileAge="1526655372000" FileType="45637" />
+      <File Name="Sources/Events.h" FileDate="2018-05-30, 15:35:36" FileAge="1527710736000" FileType="131328" />
+      <File Name="Generated_Code/Cpu.c" FileDate="2018-05-30, 15:35:36" FileAge="1527710736000" FileType="45637" CompNumb="4" />
+      <File Name="Generated_Code/PWM1.c" FileDate="2018-05-30, 15:35:36" FileAge="1527710736000" FileType="45637" CompNumb="17" />
+      <File Name="Generated_Code/AS2.h" FileDate="2018-05-18, 10:28:38" FileAge="1526655518000" FileType="45637" CompNumb="9" />
+      <File Name="Generated_Code/Bit1.h" FileDate="2018-05-30, 15:35:36" FileAge="1527710736000" FileType="45637" CompNumb="15" />
+      <File Name="Sources/Events.c" FileDate="2018-05-30, 15:35:36" FileAge="1527710736000" FileType="131328" />
+      <File Name="Generated_Code/AS2.c" FileDate="2018-05-18, 10:28:38" FileAge="1526655518000" FileType="45637" CompNumb="9" />
+      <File Name="Generated_Code/PE_Types.h" FileDate="2018-05-18, 10:26:12" FileAge="1526655372000" FileType="45637" />
+      <File Name="Generated_Code/Bit1.c" FileDate="2018-05-30, 15:35:36" FileAge="1527710736000" FileType="45637" CompNumb="15" />
+      <File Name="Generated_Code/AD1.h" FileDate="2018-05-30, 15:35:36" FileAge="1527710736000" FileType="45637" CompNumb="13" />
+      <File Name="Generated_Code/AD1.c" FileDate="2018-05-30, 15:35:36" FileAge="1527710736000" FileType="45637" CompNumb="13" />
+      <File Name="Generated_Code/PE_Error.h" FileDate="2018-05-18, 10:26:12" FileAge="1526655372000" FileType="45637" />
+      <File Name="Generated_Code/AS1.h" FileDate="2018-05-18, 10:28:38" FileAge="1526655518000" FileType="45637" CompNumb="8" />
+      <File Name="Generated_Code/PWM2.h" FileDate="2018-05-30, 15:35:36" FileAge="1527710736000" FileType="45637" CompNumb="18" />
+    </GeneratedByPE>
+  </GeneratedFilesList>
+  <CodeGenReference>12</CodeGenReference>
+</CodeGenerationInfo>

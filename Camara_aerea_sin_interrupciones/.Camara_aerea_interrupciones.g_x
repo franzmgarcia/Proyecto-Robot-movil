@@ -1,0 +1,43 @@
+<CodeGenerationInfo>
+  <ToolchainSettings>
+    <option>
+      <name>PE_G_4PEx_ToolChain_Compiler_SearchUserPaths</name>
+      <values lines_count="2">
+        <Line>"${ProjDirPath}/Sources"</Line>
+        <Line>"${ProjDirPath}/Generated_Code"</Line>
+      </values>
+    </option>
+  </ToolchainSettings>
+  <GeneratedFilesList>
+    <GeneratedByPE>
+      <File Name="Generated_Code/Vectors.c" FileDate="2018-07-12, 17:16:48" FileAge="1531432008137" FileType="45637" CompNumb="4" />
+      <File Name="Generated_Code/PWM2.c" FileDate="2018-07-03, 21:54:34" FileAge="1530671074999" FileType="45637" CompNumb="10" />
+      <File Name="Sources/main.c" FileDate="2018-07-14, 15:20:55" FileAge="1531597855183" FileType="128" />
+      <File Name="Documentation/Camara_aerea_interrupciones_Settings.xml" FileDate="2018-07-12, 17:16:48" FileAge="1531432008379" FileType="3072" />
+      <File Name="Generated_Code/Bit1.c" FileDate="2018-07-09, 12:54:33" FileAge="1531157073552" FileType="45637" CompNumb="14" />
+      <File Name="Generated_Code/Cpu.h" FileDate="2018-07-09, 12:54:33" FileAge="1531157073801" FileType="45637" CompNumb="4" />
+      <File Name="Generated_Code/Cpu.c" FileDate="2018-07-09, 12:54:33" FileAge="1531157073819" FileType="45637" CompNumb="4" />
+      <File Name="Generated_Code/PE_Timer.h" FileDate="2018-07-03, 21:04:25" FileAge="1530668065968" FileType="45637" />
+      <File Name="Generated_Code/PWM1.h" FileDate="2018-07-03, 21:54:34" FileAge="1530671074931" FileType="45637" CompNumb="9" />
+      <File Name="Documentation/Camara_aerea_interrupciones_SIGNALS.txt" FileDate="2018-07-14, 15:21:36" FileAge="1531597896198" FileType="3072" />
+      <File Name="Generated_Code/PE_Timer.c" FileDate="2018-07-03, 21:04:25" FileAge="1530668065963" FileType="45637" />
+      <File Name="Generated_Code/PE_Const.h" FileDate="2018-07-03, 20:38:48" FileAge="1530666528246" FileType="45637" />
+      <File Name="Generated_Code/PWM1.c" FileDate="2018-07-03, 21:54:34" FileAge="1530671074956" FileType="45637" CompNumb="9" />
+      <File Name="Generated_Code/IO_Map.h" FileDate="2018-07-03, 20:38:48" FileAge="1530666528233" FileType="45637" />
+      <File Name="Generated_Code/Bit2.h" FileDate="2018-07-09, 12:54:33" FileAge="1531157073543" FileType="45637" CompNumb="15" />
+      <File Name="Sources/Events.h" FileDate="2018-07-12, 17:16:48" FileAge="1531432008226" FileType="131328" />
+      <File Name="Project_Settings/Linker_Files/ProcessorExpert.lcf" FileDate="2018-07-03, 20:38:48" FileAge="1530666528196" FileType="8" CompNumb="4" />
+      <File Name="Generated_Code/Bit2.c" FileDate="2018-07-09, 12:54:33" FileAge="1531157073534" FileType="45637" CompNumb="15" />
+      <File Name="Generated_Code/IO_Map.c" FileDate="2018-07-03, 20:38:48" FileAge="1530666528223" FileType="45637" />
+      <File Name="Sources/Events.c" FileDate="2018-07-12, 17:16:48" FileAge="1531432008270" FileType="131328" />
+      <File Name="Documentation/Camara_aerea_interrupciones.txt" FileDate="2018-07-12, 17:16:48" FileAge="1531432008408" FileType="3072" />
+      <File Name="Generated_Code/PE_Types.h" FileDate="2018-07-03, 20:38:48" FileAge="1530666528262" FileType="45637" />
+      <File Name="Generated_Code/AS1.h" FileDate="2018-07-12, 17:16:48" FileAge="1531432008100" FileType="45637" CompNumb="8" />
+      <File Name="Generated_Code/AS1.c" FileDate="2018-07-12, 17:16:48" FileAge="1531432008121" FileType="45637" CompNumb="8" />
+      <File Name="Generated_Code/PWM2.h" FileDate="2018-07-03, 21:54:34" FileAge="1530671074978" FileType="45637" CompNumb="10" />
+      <File Name="Generated_Code/PE_Error.h" FileDate="2018-07-03, 20:38:48" FileAge="1530666528257" FileType="45637" />
+      <File Name="Generated_Code/Bit1.h" FileDate="2018-07-09, 12:54:33" FileAge="1531157073562" FileType="45637" CompNumb="14" />
+    </GeneratedByPE>
+  </GeneratedFilesList>
+  <CodeGenReference>18</CodeGenReference>
+</CodeGenerationInfo>
